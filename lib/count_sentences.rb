@@ -17,5 +17,6 @@ class String
   def count_sentences
     #binding.pry
     self.split.count
+    delete_if("")
   end
 end
